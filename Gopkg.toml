@@ -40,3 +40,9 @@
 [prune]
   go-tests = true
   unused-packages = true
+
+
+[metadata.heroku]
+  root-package = "github.com/vvanm/gymtracker-go"
+  go-version = "go1.10"
+
